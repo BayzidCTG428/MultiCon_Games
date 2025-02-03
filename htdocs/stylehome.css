@@ -1,0 +1,26 @@
+body {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    margin-top: 10%;
+}
+
+button {
+    padding: 20px;
+    background-color: #00ffd5;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+}
